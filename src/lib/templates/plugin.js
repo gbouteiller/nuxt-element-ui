@@ -2,6 +2,10 @@
 import <%= c.className %> from 'element-ui/lib/<%= c.fileName %>';
 <% }); %>
 import Vue from 'vue';
+import lang from 'element-ui/lib/locale/lang/<%= options.locale %>';
+import locale from 'element-ui/lib/locale';
+
+locale.use(lang);
 
 <% options.components.forEach((c) => { if (['Loading', 'Message', 'MessageBox', 'Notification'].indexOf(c.className) === -1 ) {%>
 Vue.use(<%= c.className %>);
