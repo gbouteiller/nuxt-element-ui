@@ -17,7 +17,7 @@ export default {
     { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
     { file: pkg.module, format: 'es', sourcemap: true },
   ],
-  external: ['lodash.camelcase', 'lodash.kebabcase', 'lodash.upperfirst', 'path' ],
+  external: ['lodash.camelcase', 'lodash.kebabcase', 'path' ],
   watch: {
     include: 'src/**',
   },
