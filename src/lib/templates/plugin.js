@@ -1,10 +1,10 @@
 import Vue from 'vue';
-import locale from 'element-ui/lib/locale/lang/<%= options.locale %>';
+import lang from 'element-ui/lib/locale/lang/<%= options.locale %>';
 
 <% if (options.components.length === 0) { %>
 import ElementUI from 'element-ui';
 
-Vue.use(ElementUI, { locale });
+Vue.use(ElementUI, { locale: lang });
 <% } else { %>
 
 <% options.components.forEach((c) => { %>
