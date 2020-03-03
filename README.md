@@ -1,6 +1,8 @@
-# nuxt-element-ui
+# nuxt-element-ui [DEPRECATED]
 
-[![npm](https://img.shields.io/npm/dt/nuxt-element-ui.svg?style=flat-square)](https://www.npmjs.com/package/nuxt-element-ui) [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-element-ui/latest.svg?style=flat-square)](https://www.npmjs.com/package/nuxt-element-ui) [![NpmLicense](https://img.shields.io/npm/l/nuxt-element-ui.svg?style=flat-square)](https://www.npmjs.com/package/nuxt-element-ui)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+(⛔️ DEPRECATED) THIS PROJECT IS NOT MAINTAINED ANYMORE AS I SWITCHED FROM NUXT TO QUASAR. PLEASE, FEEL FREE TO CONTACT ME IN PRIVATE IF YOU WANT TO TAKE OVER.
 
 > Add [ElementUI](https://github.com/ElemeFE/element) A Vue.js 2.0 UI Toolkit for Web to Nuxt.
 
